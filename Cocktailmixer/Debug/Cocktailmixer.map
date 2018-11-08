@@ -1276,7 +1276,6 @@ END GROUP
  .data.Gesammtzustand_ist
                 0x00802009        0x8 Schieberegister.o
                 0x00802009                Gesammtzustand_ist
- *(.gnu.linkonce.d*)
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
@@ -1301,7 +1300,7 @@ END GROUP
                                   0x9 (size before relaxing)
  .rodata.str1.1
                 0x0080218b       0x15 uart_string_handling.o
- *(.gnu.linkonce.r*)
+ *(.gnu.linkonce.d*)
                 0x008021a0                . = ALIGN (0x2)
                 0x008021a0                _edata = .
                 0x008021a0                PROVIDE (__data_end, .)
@@ -1646,51 +1645,51 @@ END GROUP
  .debug_frame   0x00000d48       0xac UART.o
  .debug_frame   0x00000df4       0x78 uart_string_handling.o
 
-.debug_str      0x00000000     0x4876
+.debug_str      0x00000000     0x4884
  *(.debug_str)
  .debug_str     0x00000000     0x172c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.1.68/gcc/dev/atxmega32a4/avrxmega2/crtatxmega32a4.o
- .debug_str     0x0000172c      0x8bd AnalogDigitalConverter.o
-                                0x928 (size before relaxing)
- .debug_str     0x00001fe9      0x568 Bildschirmausgaben.o
-                                0x728 (size before relaxing)
- .debug_str     0x00002551      0x62f Bitoperationen.o
-                                0x9db (size before relaxing)
- .debug_str     0x00002b80      0x3f7 BringMe2IdleState.o
-                                0xd8d (size before relaxing)
- .debug_str     0x00002f77      0x59a Faderbewegung.o
-                               0x10d3 (size before relaxing)
- .debug_str     0x00003511       0x6c Fader_Motor.o
-                                0x8b1 (size before relaxing)
- .debug_str     0x0000357d       0x5f IC_74HC595.o
-                                0x383 (size before relaxing)
- .debug_str     0x000035dc      0x14a Init_XMEGA.o
-                                0x31e (size before relaxing)
- .debug_str     0x00003726       0xf4 lcd-routines.o
-                                0x335 (size before relaxing)
- .debug_str     0x0000381a       0x35 LED.o
-                                0x478 (size before relaxing)
- .debug_str     0x0000384f      0x768 main.o
-                               0x1b38 (size before relaxing)
- .debug_str     0x00003fb7       0x4b Pin.o
-                                0x46e (size before relaxing)
- .debug_str     0x00004002       0x82 Potentiometer.o
-                                0xe56 (size before relaxing)
- .debug_str     0x00004084       0x60 Pumpenklasse.o
-                                0x55c (size before relaxing)
- .debug_str     0x000040e4       0x30 Pumpensteuerung.o
-                                0xd97 (size before relaxing)
- .debug_str     0x00004114      0x40d PwmPin.o
-                                0xbf7 (size before relaxing)
- .debug_str     0x00004521       0x88 Schieberegister.o
-                                0xb3c (size before relaxing)
- .debug_str     0x000045a9       0x25 Schieberegister_Operationen.o
-                                0x9b9 (size before relaxing)
- .debug_str     0x000045ce       0x46 StringOperationen.o
-                                0x26b (size before relaxing)
- .debug_str     0x00004614      0x1be UART.o
-                                0x5ff (size before relaxing)
- .debug_str     0x000047d2       0xa4 uart_string_handling.o
-                                0x2c1 (size before relaxing)
+ .debug_str     0x0000172c      0x8cb AnalogDigitalConverter.o
+                                0x936 (size before relaxing)
+ .debug_str     0x00001ff7      0x568 Bildschirmausgaben.o
+                                0x736 (size before relaxing)
+ .debug_str     0x0000255f      0x62f Bitoperationen.o
+                                0x9e9 (size before relaxing)
+ .debug_str     0x00002b8e      0x3f7 BringMe2IdleState.o
+                                0xd9b (size before relaxing)
+ .debug_str     0x00002f85      0x59a Faderbewegung.o
+                               0x10e1 (size before relaxing)
+ .debug_str     0x0000351f       0x6c Fader_Motor.o
+                                0x8bf (size before relaxing)
+ .debug_str     0x0000358b       0x5f IC_74HC595.o
+                                0x391 (size before relaxing)
+ .debug_str     0x000035ea      0x14a Init_XMEGA.o
+                                0x32c (size before relaxing)
+ .debug_str     0x00003734       0xf4 lcd-routines.o
+                                0x343 (size before relaxing)
+ .debug_str     0x00003828       0x35 LED.o
+                                0x486 (size before relaxing)
+ .debug_str     0x0000385d      0x768 main.o
+                               0x1b46 (size before relaxing)
+ .debug_str     0x00003fc5       0x4b Pin.o
+                                0x47c (size before relaxing)
+ .debug_str     0x00004010       0x82 Potentiometer.o
+                                0xe64 (size before relaxing)
+ .debug_str     0x00004092       0x60 Pumpenklasse.o
+                                0x56a (size before relaxing)
+ .debug_str     0x000040f2       0x30 Pumpensteuerung.o
+                                0xda5 (size before relaxing)
+ .debug_str     0x00004122      0x40d PwmPin.o
+                                0xc05 (size before relaxing)
+ .debug_str     0x0000452f       0x88 Schieberegister.o
+                                0xb4a (size before relaxing)
+ .debug_str     0x000045b7       0x25 Schieberegister_Operationen.o
+                                0x9c7 (size before relaxing)
+ .debug_str     0x000045dc       0x46 StringOperationen.o
+                                0x279 (size before relaxing)
+ .debug_str     0x00004622      0x1be UART.o
+                                0x60d (size before relaxing)
+ .debug_str     0x000047e0       0xa4 uart_string_handling.o
+                                0x2cf (size before relaxing)
 
 .debug_loc      0x00000000     0x419f
  *(.debug_loc)

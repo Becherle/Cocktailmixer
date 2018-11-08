@@ -244,9 +244,9 @@ void Initialisierung (void)
 {
 //	Initialisiere den µ-Controller
 	Init_XMEGA();
-	_delay_ms(50);
+	_delay_ms(100);
 	Display_Init();
-	_delay_ms(50);
+	_delay_ms(100);
 	UART_init();
 	//Motor_Fader_1.Disable_Motor();
 	/*Motor_Fader_2.Disable_Motor();
